@@ -1,0 +1,31 @@
+{
+  "name": "spyne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.6",
+    "aws-sdk": "^2.1687.0",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
+    "fetch": "^1.1.0",
+    "json-2-csv": "^5.5.5",
+    "json2csv": "^6.0.0-alpha.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^7.6.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "sharp": "^0.33.5",
+    "uuid": "^10.0.0"
+  }
+}
