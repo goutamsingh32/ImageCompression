@@ -14,7 +14,7 @@ dotenv.config();
 routes(app);
 
 const mongoURI = process.env.MONGO_URI;
-const PORT = '5050';
+const PORT = process.env.URL || 5050;
 
 mongoose.connect(mongoURI).then(() => {
     console.log('Connected to MongoDB');
